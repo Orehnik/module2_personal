@@ -1,0 +1,154 @@
+.connection {
+    position: relative;
+    width: 100%;
+    max-width: 1400px;
+    height: 717px;
+    margin: 0 auto;
+    height: 717px;
+    background: #191c19;
+    border-radius: 30px;
+    margin-top: 150px;
+    margin-bottom: 30px;
+  }
+  .drawing {
+    position: absolute;
+    left: 57.5%;
+    bottom: 0;
+    right: 0;
+    height: 100%;
+    background-image: url("../resources/cuate.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 30px;
+  }
+  .box-connection {
+    width: 1150px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    row-gap: 26px;
+    padding: 100px 0px 0px 0px;
+  }
+  .connection-title {
+    font-family: "IBM Plex Mono";
+    font-style: normal;
+    width: 553px;
+    height: 180px;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 60px;
+    letter-spacing: -0.03em;
+    color: #ffffff;
+  }
+  .input-connection {
+    width: 527px;
+    height: 30px;
+    padding: 15px 0px 15px 40px;
+    background: #3b3d3b;
+    border-radius: 1000px;
+    border: none;
+    font-family: "IBM Plex Mono";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 29px;
+    letter-spacing: -0.03em;
+    color: #ffffff;
+  }
+  .input-connection:focus {
+    outline: none;
+  }
+  .btn-connection {
+    width: 450px;
+    height: 70px;
+    background: #1bff07;
+    border-radius: 10px;
+    font-family: "IBM Plex Mono";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 29px;
+    text-align: center;
+    letter-spacing: -0.03em;
+    color: #000000;
+    border: none;
+    margin-top: 34px;
+    cursor: pointer;
+  }
+  @media (max-width: 1199px) {
+    .connection {
+      width: 100%;
+      height: 484px;
+      margin-top: 110px;
+    }
+    .drawing {
+      left: 57.5%;
+    }
+    .box-connection {
+      width: 100%;
+      padding: 50px 0px 0px 50px;
+      row-gap: 26px;
+    }
+    .connection-title {
+      width: 373px;
+      height: 112px;
+      font-size: 40px;
+      line-height: 40px;
+    }
+    .input-connection {
+      width: 359px;
+      height: 21px;
+      padding: 10px 0px 10px 24px;
+      border: none;
+      font-size: 16px;
+      line-height: 21px;
+    }
+    .btn-connection {
+      width: 304px;
+      height: 47px;
+      background: #1bff07;
+      font-size: 16px;
+      line-height: 21px;
+      margin-top: 14px;
+    }
+  }
+  @media (max-width: 767px) {
+    .drawing {
+      display: none;
+    }
+    .connection {
+      height: 428px;
+      margin-top: 100px;
+      padding: 50px 15px 0px 15px;
+    }
+    .box-connection {
+      width: 100%;
+      padding: 0px 0px 0px 0px;
+      row-gap: 15px;
+    }
+    .connection-title {
+      width: 90%;
+      height: 112px;
+      font-size: 35px;
+      line-height: 37px;
+      margin-bottom: 25px;
+    }
+    .input-connection {
+      width: 94%;
+      height: 20px;
+      padding: 10px 0px 8px 21px;
+      border: none;
+      font-size: 15px;
+      line-height: 20px;
+    }
+    .btn-connection {
+      width: 100%;
+      height: 43px;
+      background: #1bff07;
+      font-size: 16px;
+      line-height: 21px;
+      margin-top: 25px;
+    }
+  }
+  

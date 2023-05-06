@@ -1,0 +1,82 @@
+.welcome-block {
+    width: 100%;
+    height: 100vh;
+    background-size: 100%;
+    margin-top: 0 auto;
+    background-image: url("../resources/men.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+  }
+  .box-welcom {
+    width: 1150px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 29px;
+    padding-bottom: 94px;
+  }
+  .text-welcom-block {
+    width: 430px;
+    height: 103px;
+    left: 125px;
+    top: 334px;
+  
+    font-family: "IBM Plex Mono";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    letter-spacing: -0.03em;
+  
+    color: #ffffff;
+  }
+  .title-welcom-block {
+    width: 919px;
+    height: 205px;
+    font-family: "IBM Plex Mono";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 70px;
+    letter-spacing: -0.03em;
+  
+    color: #1bff07;
+  }
+  @media (max-width: 1199px) {
+    .box-welcom {
+      width: 100%;
+      padding: 0px 0px 60px 10px;
+    }
+    .title-welcom-block {
+      font-size: 60px;
+      line-height: 70px;
+      width: 727px;
+      height: 205px;
+    }
+  }
+  @media (max-width: 767px) {
+    .welcome-block{
+      background-image: url("../resources/men-phone.png");
+    }
+    .box-welcom {
+      padding: 0px 12px 60px 10px;
+    }
+    .text-welcom-block{
+      font-size: 15px;
+  line-height: 20px;
+  width: 90%;
+    }
+    .title-welcom-block {
+      font-size: 40px;
+      line-height: 47px;
+      width: 100%;
+      height: auto;
+    }
+  }

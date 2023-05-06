@@ -1,0 +1,129 @@
+.burger {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: end;
+    background-color: rgba(0, 0, 0, 0.4);
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease;
+  }
+  .burger-btn {
+    display: none;
+    position: absolute;
+    top: 38.5px;
+    right: 16.5px;
+    background-image: url("../resources/burger-btn.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    cursor: pointer;
+    width: 36px;
+    height: 24px;
+  }
+  .burger-btn_open {
+    z-index: 100;
+    background-image: url("../resources/close.png");
+    height: 20px;
+    width: 20px;
+    top: 18px;
+    right: 28px;
+  }
+  .burger_open {
+    opacity: 1;
+    visibility: visible;
+  }
+  .burger__contact {
+    width: 362px;
+    height: 100%;
+    background: #000000;
+    padding: 80px 0px 0 30px;
+    overflow-y: scroll;
+  }
+  .body_fixed {
+    overflow: hidden;
+    line-height: 1;
+  }
+  .burger-nav {
+    display: flex;
+    flex-direction: column;
+    gap: 21px;
+    align-items: flex-start;
+  }
+  .burger-link{
+      display: flex;
+      flex-direction: column;
+  }
+  .burger-connection {
+    width: 92px;
+    height: 46px;
+    font-family: "IBM Plex Mono";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 46px;
+    letter-spacing: -0.03em;
+    color: #ffffff;
+    text-decoration: none;
+  }
+  .burger-logo-link {
+    margin-bottom: 30px;
+  }
+  .burger-nav-link {
+    font-family: "IBM Plex Mono";
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: -0.03em;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 25px;
+    line-height: 32px;
+    text-transform: uppercase;
+    cursor: pointer;
+    text-align: right;
+  }
+  .burger-contact-box {
+    margin-left: 3px;
+    margin-top: 90px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: flex-start;
+  }
+  .burger-contact-title {
+    font-family: "IBM Plex Mono";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    letter-spacing: -0.03em;
+    color: #ffffff;
+    opacity: 0.5;
+  }
+  .burger-logo-link{
+      background: #000000;
+      border-radius: 100px;
+      padding: 5px 15px 5px 15px;
+      text-align: center;
+      border: 1px solid #1bff07;
+  }
+  .burger-logo{
+      text-decoration: none;
+      font-family: "IBM Plex Mono";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 42.4138px;
+      line-height: 36px;
+      letter-spacing: -0.11em;
+      text-transform: uppercase;
+      color: #1bff07;
+  }
+  @media (max-width: 1199px) {
+    .burger-btn {
+      display: block;
+    }
+  }
+  

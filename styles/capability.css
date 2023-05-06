@@ -1,0 +1,131 @@
+.section-capability {
+    width: 1150px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+  }
+  .capability-heading {
+    margin-top: 150px;
+    margin-bottom: 40px;
+    width: 403px;
+    height: 92px;
+    font-family: "IBM Plex Mono";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 46px;
+    letter-spacing: -0.03em;
+  
+    color: #ffffff;
+  }
+  .capability-img {
+    width: 1150px;
+    height: 200px;
+    border-radius: 30px;
+  }
+  .capability {
+    width: 100%;
+    height: 283px;
+    border-radius: 30px;
+    background: #191c19;
+    padding: 40px 40px 40px 40px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .heading-box {
+    font-family: "IBM Plex Mono";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 55px;
+    line-height: 72px;
+    width: 490px;
+    height: auto;
+  
+    letter-spacing: -0.03em;
+  
+    color: #1bff07;
+  }
+  .box-capability p {
+    font-family: "IBM Plex Mono";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 29px;
+    letter-spacing: -0.03em;
+    color: #ffffff;
+    width: 525px;
+    height: 175px;
+  }
+  @media (max-width: 1199px) {
+    .section-capability {
+      width: 100%;
+      row-gap: 32px;
+      padding: 0 15px 0 15px;
+    }
+    .capability-heading {
+      margin-top: 150px;
+      margin-bottom: 28px;
+      width: 326px;
+      height: 74px;
+      font-size: 28.3043px;
+      line-height: 37px;
+    }
+    .capability-img {
+      width: 100%;
+      height: 162px;
+      object-fit: cover;
+      object-position: 50%;
+    }
+    .capability {
+      height: 229px;
+      padding: 32px;
+    }
+    .heading-box {
+      font-size: 45px;
+      line-height: 110%;
+      width: calc(50% - 25px);
+      height: auto;
+    }
+    .box-capability p {
+      font-size: 18px;
+      line-height: 23px;
+      width: calc(50% - 10px);
+      height: auto;
+    }
+  }
+  @media (max-width: 767px) {
+    .section-capability {
+      row-gap: 60px;
+      padding: 0 13px 0 12px;
+    }
+    .capability-heading {
+      margin-top: 100px;
+      margin-bottom: 0px;
+      width: 90%;
+      height: auto;
+    }
+    .capability-img {
+      height: 225px;
+    }
+    .capability {
+      width: 100%;
+      height: auto;
+      padding: 30px 20px 30px 20px;
+      flex-direction: column;
+      align-items: flex-start;
+      row-gap: 15px;
+    }
+    .heading-box {
+      font-size: 35px;
+      line-height: 110%;
+      width: 95%;
+      height: auto;
+    }
+    .box-capability p {
+      font-size: 18px;
+      line-height: 23px;
+      width: 100%;
+      height: auto;
+    }
+  }

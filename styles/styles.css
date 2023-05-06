@@ -1,0 +1,17 @@
+@import "welcom-block.css";
+@import "portfolio.css";
+@import "benefits.css";
+@import "capability.css";
+@import "connection.css";
+@import "footer.css";
+@import "nav.css";
+@import "burger.css";
+
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background-color: black;
+  font-family: "IBM Plex Mono", monospace;
+  font-family: "Manrope", sans-serif;
+}

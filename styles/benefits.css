@@ -1,0 +1,129 @@
+.section-benefits {
+    width: 1150px;
+    margin: 0 auto;
+  }
+  .heading-benefits {
+    font-family: "IBM Plex Mono";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 55px;
+    line-height: 72px;
+    margin-bottom: 80px;
+    margin-top: 150px;
+    letter-spacing: -0.03em;
+  
+    color: #ffffff;
+  }
+  .box-benefits {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 40px;
+  }
+  .block-benefits {
+    width: calc(50% - 5px);
+    height: auto;
+  }
+  .enumeration-benefits {
+    display: flex;
+    background: #1bff07;
+    border-radius: 10px;
+    width: 45px;
+    height: 44px;
+    margin-left: 2px;
+  
+    align-items: center;
+    justify-content: center;
+  }
+  .enumeration-benefits img {
+    background-repeat: no-repeat;
+    object-fit: cover;
+    object-position: 50%;
+  }
+  .subtitle-benefits {
+    width: auto;
+    margin-top: 15px;
+    margin-bottom: 16px;
+    font-family: "IBM Plex Mono";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 46px;
+    letter-spacing: -0.03em;
+    color: #1bff07;
+  }
+  
+  .text-benefits {
+    width: 100%;
+    font-family: "IBM Plex Mono";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 29px;
+    letter-spacing: -0.03em;
+    color: #ffffff;
+  }
+  .first-text-benefits {
+    width: 535px;
+  }
+  .third-subtitle-benefits {
+    margin-bottom: 54px;
+  }
+  @media (max-width: 1199px) {
+    .section-benefits {
+      width: 100%;
+      padding: 0 13px 0 15px;
+    }
+    .box-benefits {
+      row-gap: 36px;
+    }
+    .heading-benefits {
+      font-size: 45px;
+      line-height: 58px;
+      margin-bottom: 60px;
+    }
+    .enumeration-benefits {
+      background: #1bff07;
+      border-radius: 10px;
+      width: 36px;
+      height: 36px;
+      text-align: center;
+      margin-left: 2px;
+    }
+    .subtitle-benefits {
+      font-size: 28px;
+      line-height: 36px;
+      margin-top: 10px;
+      margin-bottom: 13px;
+    }
+    .text-benefits {
+      font-size: 18px;
+      line-height: 23px;
+    }
+    .first-text-benefits {
+      width: 95%;
+    }
+    .third-subtitle-benefits {
+      margin-bottom: 46px;
+    }
+  }
+  @media (max-width: 767px) {
+    .box-benefits {
+      align-content: flex-start;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 60px;
+    }
+    .block-benefits {
+      width: 100%;
+      height: auto;
+    }
+    .heading-benefits {
+      margin-bottom: 60px;
+      margin-top: 100px;
+    }
+    .subtitle-benefits {
+      margin-bottom: 15px;
+    }
+  }
+  

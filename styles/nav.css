@@ -1,0 +1,67 @@
+.bloc-nav{
+    margin-top: 100px;
+      width: 1150px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-top: 36px;
+    }
+    .box-logo{
+      background: #000000;
+      border-radius: 100px;
+      padding: 5px 15px 5px 15px;
+      text-align: center;
+    }
+    .logo {
+      text-decoration: none;
+      font-family: "IBM Plex Mono";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 42.4138px;
+      line-height: 36px;
+      letter-spacing: -0.11em;
+      text-transform: uppercase;
+      color: #1bff07;
+    }
+    .box-link{
+      display: flex;
+      align-items: center;
+      gap: 50px;
+    }
+    .nav-link {
+      display: inline-block;
+      font-family: "IBM Plex Mono";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 23px;
+      letter-spacing: -0.03em;
+      text-transform: lowercase;
+      text-decoration: none;
+      color: #ffffff;
+    }
+    .nav-link:hover {
+      color: #1bff07;
+    }
+    
+    @media (max-width: 1199px) {
+      .bloc-nav{
+        width: 100%;
+        padding: 38px 16px 30px 13px;
+      }
+      .burger-btn{
+        display: block;
+      }
+      .box-link{
+        display: none;
+      }
+    }
+    @media (max-width: 767px) {
+      .box-logo{
+        padding: 5px 15px 5px 15px;
+      }
+      .logo{
+        font-size: 36px;
+      }
+    }
